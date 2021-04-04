@@ -1,9 +1,9 @@
 
 
 ## Description
-Data compression using neural networks
+STAT 212 project on data compression using neural networks
 
-[DeepZip: Lossless Data Compression using Recurrent Neural Networks](https://arxiv.org/abs/1811.08162)
+Ref: [DeepZip: Lossless Data Compression using Recurrent Neural Networks](https://arxiv.org/abs/1811.08162)
 
 ## Requirements
 0. GPU, nvidia-docker (or try alternative installation)
