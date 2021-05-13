@@ -29,4 +29,4 @@ bash install.sh
 
 
 ## Code
-To run a compression experiment: Directly run the file in src/main_code.ipynb
+To run a compression experiment: directly run the file in src/main_code.ipynb
