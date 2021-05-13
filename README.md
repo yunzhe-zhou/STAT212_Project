@@ -1,7 +1,5 @@
-
-
 ## Description
-STAT 212 project on data compression using neural networks
+STAT 212 project on data compression using neural networks. This project aims to make improvements based on original DeepZip method (https://arxiv.org/abs/1811.08162) by further compressing the prediction model.
 
 Ref: [DeepZip: Lossless Data Compression using Recurrent Neural Networks](https://arxiv.org/abs/1811.08162)
 
@@ -31,43 +29,4 @@ bash install.sh
 
 
 ## Code
-To run a compression experiment: 
-
-### Data Preparation
-1. Place all the data to be compressed in data/files_to_be_compressed
-2. Run the parser 
-
-```bash
-cd data
-./run_parser.sh
-```
-
-### Running models
-1. All the models are listed in models.py
-2. Pick a model, to run compression experiment on all the data files in the data/files_to_be_compressed directory
-
-```
-cd src
-./run_experiments.sh biLSTM GPUID
-```
-Note: GPUID by default can be set to 0. The corresponding command would be then `./run_experiments.sh biLSTM 0`
-### Please cite if you utilize the code in this repository.
-```
-
-@inproceedings{7fcb664b03ac4d6497048954d756b91f,
-title = "DeepZip: Lossless Data Compression Using Recurrent Neural Networks",
-author = "Mohit Goyal and Kedar Tatwawadi and Shubham Chandak and Idoia Ochoa",
-year = "2019",
-month = "5",
-day = "10",
-doi = "10.1109/DCC.2019.00087",
-language = "English (US)",
-series = "Data Compression Conference Proceedings",
-publisher = "Institute of Electrical and Electronics Engineers Inc.",
-editor = "Ali Bilgin and Storer, {James A.} and Marcellin, {Michael W.} and Joan Serra-Sagrista",
-booktitle = "Proceedings - DCC 2019",
-address = "United States",
-
-}
-
-```
+To run a compression experiment: Directly run the file in src/main_code.ipynb
