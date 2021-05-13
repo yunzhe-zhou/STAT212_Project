@@ -1,5 +1,5 @@
 ## Description
-STAT 212 project on data compression using neural networks. This project aims to make improvements based on [DeepZip] (https://arxiv.org/abs/1811.08162) by further compressing the prediction model.
+STAT 212 project on data compression using neural networks. This project aims to make improvements based on [DeepZip](https://arxiv.org/abs/1811.08162) by further compressing the prediction model.
 
 Ref: [DeepZip: Lossless Data Compression using Recurrent Neural Networks](https://arxiv.org/abs/1811.08162)
 
